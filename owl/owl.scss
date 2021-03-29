@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width: 100%;
+    .owl{
+        max-width: 1200px;
+        width: 96%;
+        padding: 0 30px;
+        margin: 0 auto;
+        .card{
+            color: white;
+            line-height: 250px;
+            text-align: center;
+            font-size: 90px;
+            font-weight: 600;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,.2);
+            border-radius: 8px;
+            &.card-1{
+                background: #c0392b;
+                border-radius: 8px;
+            }
+            &.card-2{
+                background: #27ae60;
+            }
+            &.card-3{
+                background: #e67e22;
+            }
+            &.card-4{
+                background: #2980b9;
+            }
+            &.card-5{
+                background: #2c3e50;
+            }
+        }   
+    }
+}
+.owl-dots{
+    button{
+        outline: none;
+        span{
+            width: 45px !important;
+            height: 15px !important;
+            border: 2px solid #c0392b;
+            background: none !important;
+        }
+        &:hover, &.active{
+            span{
+                background: #c0392b !important;
+            }
+        }
+    }
+}
+.owl-nav{
+    button{
+        border: none;
+        outline: none;
+        width: 50px;
+        height: 50px;
+        background: transparent !important;
+        &:hover {
+            i {
+               color: red;
+            }
+         }
+        i{
+            font-size: 20px;
+        }
+        &.owl-prev,
+        &.owl-next{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &.owl-prev{
+            left: -30px;
+        }
+        &.owl-next{
+            right: -30px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// body, html{
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//  }
+// .owl{
+//     width: 100vw;
+//     // margin: 0 auto;
+//     .owl-parent{
+//     .child{
+//         width: 100%;
+//         height: 500px;
+//         position: relative;
+//         .wrapper{
+//             position: absolute;
+//             top
+//             .name{
+//                 font-size: 18px;
+//                 font-weight: 300;
+//                 color: rgb(40, 121, 254);
+//                 &:first-child{
+//                     color: white;
+//                 }
+//             }
+//         }
+
+//         img
+//         {
+//             max-width: 100%;
+//             max-height: 100%;
+//             display: block;
+//             margin: auto auto;
+//         }
+//     }
+//     }
+// }

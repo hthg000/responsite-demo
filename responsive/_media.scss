@@ -1,0 +1,38 @@
+@mixin default {
+    @media (max-width: 400px) {
+        @content;   
+    }
+}
+
+@mixin xs {
+    @media (max-width: 576px) {
+       @content;
+    }
+ }
+ 
+ @mixin sm {
+    @media (min-width: 576px) {
+       @content;
+    }
+ }
+ 
+ // for tablet
+ @mixin md {
+    @media (min-width: 768px) {
+       @content;
+    }
+ }
+ 
+ // for laptop w: 1024px 
+ @mixin lg {
+    @media (min-width: 992px) {
+       @content;
+    }
+ }
+ 
+ // for laptop w: 1024px 
+ @mixin xl {
+    @media (min-width: 1200px) {
+       @content;
+    }
+ }

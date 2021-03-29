@@ -1,0 +1,44 @@
+@import "grid";
+
+*{
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    a{
+        text-decoration: none;
+    }
+}
+.wrapper{
+    width: 1150px;
+    margin: 0 auto;
+    .row{
+        display: flex;
+        .child{
+            overflow: hidden;
+            &:hover{
+                a{
+                    h2{
+                        color: #2879fe;
+                    }
+                }
+            }
+            a{
+                img{
+                    border-radius: 10px;
+                    max-width: 100%;
+                    width: 100%;
+                    vertical-align: middle;
+                }
+            }
+            a{
+                h2{
+                    text-align: center;
+                    text-transform: capitalize;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: rgb(25, 25, 25);
+    
+                }
+            }
+        }
+    }
+}
